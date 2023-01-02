@@ -56,12 +56,14 @@ In modern JavaScript, we have an alternative that is more performant than keepin
 ```
 
 The defer attribute triggers the faster path to a fast-loading page and fast-loading JavaScript.
-Note: the async attribute is similar but a worse option than defer. I describe it in more detail in the Javascript Ebook.
+
+> Note: the async attribute is similar but a worse option than defer. I describe it in more detail in the Javascript Ebook.
 
 ## The noscript tag
 
 The noscript tag detects when scripts are disabled in the browser.
-Note: users can choose to disable JavaScript scripts in the browser settings. Or the browser might not support them by default.
+
+> Note: users can choose to disable JavaScript scripts in the browser settings. Or the browser might not support them by default.
 
 It is used differently depending on whether placed in the document head or the document body. We're talking about the document head now, so let's first introduce this usage.
 In this case, the noscript tag can only contain other tags:

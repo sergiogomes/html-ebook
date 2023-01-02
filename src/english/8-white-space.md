@@ -53,5 +53,6 @@ Nested tags should be indented with 2 or 4 characters, depending on your prefere
 </body> 
 ```
 
-Note: this "white space is not relevant" feature means that if you want to add additional space, it can make you mad. I suggest you use CSS to create more space when needed.
-Note: in exceptional cases, you can use the &nbsp; HTML entity (an acronym that means non-breaking space) - more on HTML entities later. We should not use it in excess, though. CSS is always preferred to alter the visual presentation.
+> Note: this "white space is not relevant" feature means that if you want to add additional space, it can make you mad. I suggest you use CSS to create more space when needed.
+
+> Note: in exceptional cases, you can use the &nbsp; HTML entity (an acronym that means non-breaking space) - more on HTML entities later. We should not use it in excess, though. CSS is always preferred to alter the visual presentation.
