@@ -40,3 +40,17 @@ There is a special field rendered as a button, whose special action is to clear 
 ```html
 <input type="reset">
 ```
+
+## Radio buttons
+
+We can use Radio buttons to create a set of choices, of which we select one option, and all the others are disabled.
+The name comes from old car radios that had this kind of interface.
+You define a set of `type="radio"` inputs, all with the same name attribute, and different `value` attribute:
+
+```html
+<input type="radio" name="color" value="yellow">
+<input type="radio" name="color" value="red">
+<input type="radio" name="color" value="blue">
+```
+
+Once the form is submitted, the `color` data property will have only one value. There's always one element checked. The first item is the one checked by default. You can set the value that's pre-selected using the `checked` attribute. You can use it only once per radio input group.
