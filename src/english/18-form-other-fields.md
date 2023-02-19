@@ -102,3 +102,19 @@ The `type="datetime-local"` field lets you choose a date and a time.
 ```html
 <input type="datetime-local" name="date-and-time">
 ```
+
+## Color picker
+
+You can let users pick a color using the `type="color"` element:
+
+```html
+<input type="color" name="car-color">
+```
+
+You set a default value using the `value` attribute:
+
+```html
+<input type="color" name="car-color" value="#000000">
+```
+
+The browser will take care of showing a color picker to the user.
