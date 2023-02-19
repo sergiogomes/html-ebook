@@ -118,3 +118,18 @@ You set a default value using the `value` attribute:
 ```
 
 The browser will take care of showing a color picker to the user.
+
+## Range
+
+This input element shows a `slider` element. People can use it to move from a starting value to an ending value:
+
+```html
+<input type="range" name="age" min="0" max="100" value="30">
+```
+
+You can provide an optional `step`:
+
+```html
+<input type="range" name="age" min="0" max="100" value="30" step=
+"10">
+```
