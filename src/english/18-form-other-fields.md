@@ -68,3 +68,37 @@ All those checkboxes are unchecked by default. Use the `checked` attribute to en
 ```
 
 Since this input field allows multiple values, the form sends the values to the server as an array upon form submission.
+
+## Date and time
+
+We have a few input types to accept date values.
+The `type="date"` input field allows the user to enter a date and shows a date picker if needed:
+
+```html
+<input type="date" name="birthday">
+```
+
+The `type="time"` input field allows the user to enter a time and shows a time picker if needed:
+
+```html
+<input type="time" name="time-to-pickup">
+```
+
+The `type="month"` input field allows the user to enter a month and a year:
+
+```html
+<input type="month" name="choose-release-month">
+```
+
+The `type="week"` input field allows the user to enter a week and a year:
+
+```html
+<input type="week" name="choose-week">
+```
+
+All those fields allow limiting the range and the step between each value. I recommend checking MDN for the little details on their usage.
+The `type="datetime-local"` field lets you choose a date and a time.
+
+```html
+<input type="datetime-local" name="date-and-time">
+```
