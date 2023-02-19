@@ -54,3 +54,17 @@ You define a set of `type="radio"` inputs, all with the same name attribute, and
 ```
 
 Once the form is submitted, the `color` data property will have only one value. There's always one element checked. The first item is the one checked by default. You can set the value that's pre-selected using the `checked` attribute. You can use it only once per radio input group.
+
+## Checkboxes
+
+Like radio boxes, checkboxes can create a set of choices, but we can choose multiple values or none.
+You define a set of `type="checkbox"` inputs, all with the same `name` attribute and different `value` attribute:
+All those checkboxes are unchecked by default. Use the `checked` attribute to enable them on page load.
+
+```html
+<input type="checkbox" name="color" value="yellow">
+<input type="checkbox" name="color" value="red">
+<input type="checkbox" name="color" value="blue">
+```
+
+Since this input field allows multiple values, the form sends the values to the server as an array upon form submission.
