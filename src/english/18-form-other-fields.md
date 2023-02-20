@@ -191,8 +191,8 @@ We create each option using the `option` tag. We add a `name` to the select and 
 
 ```html
 <select name="color">
-    <option value="red">Red</option>
-    <option value="yellow">Yellow</option>
+  <option value="red">Red</option>
+  <option value="yellow">Yellow</option>
 </select>
 ```
 
@@ -200,8 +200,8 @@ You can set an option `disabled`:
 
 ```html
 <select name="color">
-    <option value="red" disabled>Red</option>
-    <option value="yellow">Yellow</option>
+  <option value="red" disabled>Red</option>
+  <option value="yellow">Yellow</option>
 </select>
 ```
 
@@ -209,9 +209,9 @@ You can have one empty option:
 
 ```html
 <select name="color">
-    <option value="">None</option>
-    <option value="red">Red</option>
-    <option value="yellow">Yellow</option>
+  <option value="">None</option>
+  <option value="red">Red</option>
+  <option value="yellow">Yellow</option>
 </select>
 ```
 
@@ -219,14 +219,14 @@ We can group options using the `optgroup` tag. Each option group has a `label` a
 
 ```html
 <select name="color">
-    <optgroup label="Primary">
-        <option value="red">Red</option>
-        <option value="yellow">Yellow</option>
-        <option value="blue">Blue</option>
-    </optgroup>
-    <optgroup label="Others">
-        <option value="green">Green</option>
-        <option value="pink">Pink</option>
-    </optgroup>
+  <optgroup label="Primary">
+    <option value="red">Red</option>
+    <option value="yellow">Yellow</option>
+    <option value="blue">Blue</option>
+  </optgroup>
+  <optgroup label="Others">
+    <option value="green">Green</option>
+    <option value="pink">Pink</option>
+  </optgroup>
 </select>
 ```
