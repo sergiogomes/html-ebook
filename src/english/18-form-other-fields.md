@@ -148,3 +148,85 @@ Specify a `pattern` attribute for additional validation:
 ```html
 <input type="tel" pattern="[0-9]{3}-[0-9]{8}" name="telephone-number">
 ```
+
+## URL
+
+We can use the `type="url"` field to enter a URL.
+
+```html
+<input type="url" name="website">
+```
+
+We can validate it using the `pattern` attribute:
+
+```html
+<input type="url" name="website"  pattern="https://.*">
+```
+
+## The textarea tag
+
+The `textarea` element allows users to enter multi-line text. Compared to `input`, it requires an ending tag:
+
+```html
+<textarea></textarea>
+```
+
+You can set the dimensions using CSS, but also using the `rows` and `cols` attributes:
+
+```html
+<textarea rows="20" cols="10"></textarea>
+```
+
+As with the other form tags, the `name` attribute determines the name in the data sent to the server:
+
+```html
+<textarea name="article"></textarea>
+```
+
+## The select tag
+
+We can use this tag to create a drop-down menu.
+The user can choose one of the options available.
+We create each option using the `option` tag. We add a `name` to the select and a `value` to each option:
+
+```html
+<select name="color">
+    <option value="red">Red</option>
+    <option value="yellow">Yellow</option>
+</select>
+```
+
+You can set an option `disabled`:
+
+```html
+<select name="color">
+    <option value="red" disabled>Red</option>
+    <option value="yellow">Yellow</option>
+</select>
+```
+
+You can have one empty option:
+
+```html
+<select name="color">
+    <option value="">None</option>
+    <option value="red">Red</option>
+    <option value="yellow">Yellow</option>
+</select>
+```
+
+We can group options using the `optgroup` tag. Each option group has a `label` attribute:
+
+```html
+<select name="color">
+    <optgroup label="Primary">
+        <option value="red">Red</option>
+        <option value="yellow">Yellow</option>
+        <option value="blue">Blue</option>
+    </optgroup>
+    <optgroup label="Others">
+        <option value="green">Green</option>
+        <option value="pink">Pink</option>
+    </optgroup>
+</select>
+```
