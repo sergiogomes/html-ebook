@@ -133,3 +133,18 @@ You can provide an optional `step`:
 <input type="range" name="age" min="0" max="100" value="30" step=
 "10">
 ```
+
+## Telephone
+
+We can use the `type="tel"` input field to enter a phone number:
+
+```html
+<input type="tel" name="telephone-number">
+```
+
+The main selling point for `tel` over `text` is on mobile, where the device can choose to show a numeric keyboard.
+Specify a `pattern` attribute for additional validation:
+
+```html
+<input type="tel" pattern="[0-9]{3}-[0-9]{8}" name="telephone-number">
+```
