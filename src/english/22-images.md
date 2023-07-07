@@ -19,3 +19,17 @@ You can set the `width` and `height` attributes to set the space the element wil
 ```html
 <img src="dog.png" alt="A picture of a dog" width="300" height="200">
 ```
+
+## The figure tag
+
+We can often use the `figure` tag along with the `img` tag.
+`figure` is a semantic tag often used when you want to display an image with a caption. You use it like this:
+
+```html
+<figure>
+  <img src="dog.png" alt="A nice dog">
+  <figcaption>A nice dog</figcaption>
+</figure>
+```
+
+The `figcaption` tag wraps the caption text.
