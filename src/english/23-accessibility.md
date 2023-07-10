@@ -13,3 +13,5 @@ We don't always build web pages and Web apps with accessibility as one of our fi
 It's essential, and in my country, websites built by the government or other public organizations must be accessible.
 
 What does this mean to make an HTML accessible? Let me illustrate the main things you need to think about.
+
+> Note: there are several other things to care about, which might go in the CSS topic, like colors, contrast, and fonts. Or [how to make SVG images accessible](https://css-tricks.com/accessible-svgs/). I don't talk about them here.
