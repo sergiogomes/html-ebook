@@ -15,3 +15,39 @@ It's essential, and in my country, websites built by the government or other pub
 What does this mean to make an HTML accessible? Let me illustrate the main things you need to think about.
 
 > Note: there are several other things to care about, which might go in the CSS topic, like colors, contrast, and fonts. Or [how to make SVG images accessible](https://css-tricks.com/accessible-svgs/). I don't talk about them here.
+
+## Use semantic HTML
+
+Semantic HTML is fundamental and one of the main things we must take care of. Let me illustrate a few common scenarios.
+
+It's essential to use the correct structure for heading tags. The most important is `h1`, and you use higher numbers for less important ones, but all the same-level headings should have the same meaning (think about it like a tree structure)
+
+```html
+<h1 />
+  <h2 />
+    <h3 />
+  <h2 />
+  <h2 />
+    <h3 />
+      <h4 />
+```
+
+Use `strong` and `em` instead of `b` and `i`. Visually they look the same, but the first 2 have more meaning associated with them. `b` and `i` are more visual elements.
+
+Lists are important. A screen reader can detect a list and provide an overview, then let the user choose to get into the list or not.
+
+A table should have a `caption` tag that describes its content:
+
+```html
+<table>
+  <caption>Dogs age</caption>
+  <tr>
+    <th>Dog</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Roger</td>
+    <td>7</td>
+  </tr>
+</table>
+```
