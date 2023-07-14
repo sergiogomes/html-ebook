@@ -51,3 +51,13 @@ A table should have a `caption` tag that describes its content:
   </tr>
 </table>
 ```
+
+## Use alt attributes for images
+
+All images must have an `alt` tag describing the image content. It's not just good practice; the HTML standard requires it, and your HTML is valid with it.
+
+```html
+<img src="dog.png" alt="picture of my dog">
+```
+
+It's also good for search engines if that's an incentive for you to add it.
