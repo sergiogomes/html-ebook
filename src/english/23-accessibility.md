@@ -61,3 +61,34 @@ All images must have an `alt` tag describing the image content. It's not just go
 ```
 
 It's also good for search engines if that's an incentive for you to add it.
+
+## Use the role attribute
+
+The `role` attribute lets you assign specific roles to the various elements on your page.
+You can assign lots of different roles: complementary, list, listitem, main, navigation, region, tab, alert, application, article, banner, button, cell, checkbox, contentinfo, dialog, document, feed, figure, form, grid, gridcell, heading, img, listbox, row, rowgroup, search, switch, table, tabpanel, textbox, timer.
+
+It's a lot, and for the complete reference of each of them, I give you this [MDN link](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles). But you don't need to assign a role to every element on the page. Screen readers can infer from the HTML tag in most cases. For example, you don't need to add a role tag to semantic tags like `nav`, `button`, and `form`.
+
+Let's take the `nav` tag example. You can use it to define the page navigation like this:
+
+```html
+<nav>
+  <ul> 
+    <li><a href="/">Home</a></li>
+    <li><a href="/blog">Blog</a></li>
+  </ul>
+</nav>
+```
+
+If it is a requirement that we should use a `div` tag instead of a `nav`, we can use the navigation role:
+
+```html
+<div role="navigation">
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/blog">Blog</a></li>
+  </ul>
+</div>
+```
+
+So, we use the `role` tag to assign a meaningful value when the tag does not convey the meaning already.
