@@ -92,3 +92,16 @@ If it is a requirement that we should use a `div` tag instead of a `nav`, we can
 ```
 
 So, we use the `role` tag to assign a meaningful value when the tag does not convey the meaning already.
+
+## Use the tabindex attribute
+
+The `tabindex` attribute allows us to change the order of how pressing the Tab key selects "selectable" elements. By default, only links and form elements are "selectable" by navigation using the Tab key (and you don't need to set `tabindex` on them).
+Adding `tabindex="0"` makes an element selectable:
+
+```html
+<div tabindex="0">
+  ...
+</div>
+```
+
+Using `tabindex="-1"` instead removes an element from this tab-based navigation, which can be pretty helpful.
