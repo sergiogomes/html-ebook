@@ -105,3 +105,52 @@ Adding `tabindex="0"` makes an element selectable:
 ```
 
 Using `tabindex="-1"` instead removes an element from this tab-based navigation, which can be pretty helpful.
+
+## Use the aria attributes
+
+ARIA is an acronym that means Accessible Rich Internet Applications and defines semantics that can be applied to elements.
+
+### aria-label
+
+This attribute is used to add a string to describe an element. Example:
+
+```html
+<p aria-label="The description of the product">
+  ...
+</p>
+```
+
+### aria-labelledby
+
+This attribute sets a correlation between the current element and the one that labels it.
+If you know how an `input` element can be associated with a `label` element, that's similar.
+We pass the item id that describes the current element. Example:
+
+```html
+<h3 id="description">The description of the product</h3>
+<p aria-labelledby="description">
+  ...
+</p>
+```
+
+### aria-describedby
+
+This attribute lets us associate an element with another element that serves as a description.
+Example:
+
+```html
+<button aria-describedby="payNowDescription" >Pay now</button>
+<div id="payNowDescription">Clicking the button will send you to our Stripe form!</div>
+```
+
+### Use aria-hidden to hide content
+
+Adding the `aria-hidden="true"` attribute will tell screen readers to ignore that element.
+
+## Where to learn more
+
+This is just an introduction to the topic. To learn more, I recommend these resources:
+
+- <https://www.w3.org/TR/WCAG20/>
+- <https://webaim.org>
+- <https://developers.google.com/web/fundamentals/accessibility/>
