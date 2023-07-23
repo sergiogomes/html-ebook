@@ -1,6 +1,6 @@
 # Estrutura da página HTML
 
-Vamos fazer um exemplo de uma página HTML adequada. As coisas começam com a Declaração de Tipo de Documento, uma forma de dizer ao navegador que esta é uma página HTML e qual versão estamos usando.
+Vamos fazer um exemplo de uma página HTML adequada. Tudo começa com a Declaração de Tipo de Documento, uma forma de dizer ao navegador que esta é uma página HTML e qual versão estamos usando.
 O HTML moderno usa este tipo de documento:
 
 ```html
@@ -33,10 +33,10 @@ Usamos o html como tag inicial no início do documento, logo após a declaraçã
 ```html
 <!DOCTYPE html>
 <html>
-   <cabeça>
+   <head>
      ...
    </head>
-   <corpo>
+   <body>
      ...
    </body>
 </html>
