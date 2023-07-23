@@ -9,9 +9,9 @@ Os elementos têm uma tag inicial e uma tag final. Neste exemplo, usamos as tags
 
 Assim, um elemento constitui todo o pacote:
 
-- etiqueta inicial
+- tag inicial
 - conteúdo de texto (e possivelmente outros elementos)
-- etiqueta de fechamento
+- tag de fechamento
 
 Se um elemento não tiver uma tag de fechamento, ele será escrito apenas com a tag de início e não poderá conter nenhum conteúdo de texto.
 Dito isso, posso usar o termo tag ou elemento no livro, significando a mesma coisa, exceto se eu mencionar explicitamente a tag inicial ou a tag final.
