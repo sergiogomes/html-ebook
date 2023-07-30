@@ -54,5 +54,7 @@ Tags aninhadas devem ser indentadas com 2 ou 4 caracteres, dependendo de sua pre
 ```
 
 > Observação: esse recurso "espaço em branco não é relevante" significa que, se você quiser adicionar espaço adicional, isso pode deixá-lo furioso. Sugiro que você use CSS para criar mais espaço quando necessário.
- 
+
+---
+
 > Observação: em casos excepcionais, você pode usar o &nbsp; Entidade HTML (um acrônimo que significa espaço ininterrupto) - mais sobre entidades HTML posteriormente. Porém, não devemos usá-lo em excesso. CSS é sempre preferido para alterar a apresentação visual.
