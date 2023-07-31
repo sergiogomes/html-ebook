@@ -55,9 +55,9 @@ No JavaScript moderno, temos uma alternativa com melhor desempenho do que manter
 <script defer src="file.js"></script>
 ```
 
-O atributo defer aciona o caminho mais rápido para uma página de carregamento rápido e JavaScript de carregamento rápido.
+O atributo defer diz ao navegador para não esperar pelo script. o navegador continuará a processar o HTML e a criar o DOM enquanto o script é carregado “em segundo plano” e, em seguida, executado quando o DOM estiver totalmente criado.
 
-> Nota: o atributo assíncrono é semelhante, mas uma opção pior do que defer. Eu o descrevo com mais detalhes no Ebook de Javascript.
+> Nota: o atributo async é semelhante, mas uma opção pior do que defer. Eu o descrevo com mais detalhes no Ebook de Javascript.
 
 ## A tag noscript
 
