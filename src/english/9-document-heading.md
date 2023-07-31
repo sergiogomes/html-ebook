@@ -138,9 +138,7 @@ We could also use the link tag for multi-page content indicating the previous an
 
 ## The style tag
 
-We can use the style tag to add styles to the document rather than
-loading an external stylesheet.
-Usage:
+We can use the style tag to add styles to the document rather than loading an external stylesheet. Usage:
 
 ```html
 <style> 

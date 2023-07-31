@@ -135,3 +135,21 @@ Ou podemos associar um favicon usando:
 ```
 
 Também podemos usar a tag de link para conteúdo de várias páginas, indicando a página anterior e a seguinte com rel="prev" e rel="next", principalmente para o Google. A partir de 2019, o Google anunciou que não usa mais esta tag: <https://twitter.com/googlewmc/status/1108726443251519489> porque pode encontrar a estrutura de página correta sem ela.
+
+## A tag de style
+
+Podemos usar a tag style para adicionar estilos ao documento em vez de carregar uma folha de estilo externa. Uso:
+
+```html
+<style>
+   .some-css {}
+</style>
+```
+
+Assim como a tag link, você pode usar o atributo media para usar aquele CSS apenas na mídia especificada:
+
+```html
+<style media="print">
+   .some-css {}
+</style>
+```
