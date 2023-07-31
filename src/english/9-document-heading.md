@@ -204,8 +204,7 @@ You can combine them:
 ```
 
 The default behavior is index, follow.
-You can use other properties, including nosnippet, noarchive,
-noimageindex and more.
+You can use other properties, including nosnippet, noarchive, noimageindex and more.
 You can also tell Google instead of targeting all search engines:
 
 ```html
@@ -234,4 +233,5 @@ Another rather popular meta tag is the http-equiv="refresh" one. This line tells
 ```
 
 Using 0 instead of 3 will redirect as soon as possible.
+
 After this document's introduction, we can start diving into the document's body.

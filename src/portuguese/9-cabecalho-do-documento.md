@@ -153,3 +153,85 @@ Assim como a tag link, você pode usar o atributo media para usar aquele CSS ape
    .some-css {}
 </style>
 ```
+
+## A tag base
+
+Podemos usar a tag base para definir um URL base para todos os URLs relativos contidos na página.
+
+```html
+<!DOCTYPE html>
+<html>
+   <head>
+     ...
+     <base href="https://www.sergiogomes.com/">
+     ...
+   </head>
+   ...
+</html>
+```
+
+## A meta tag
+
+Meta tags executam várias tarefas e são importantes, especialmente para SEO. Os elementos meta têm apenas a tag inicial. A mais básica é a meta tag de descrição:
+
+```html
+<meta name="description" content="Uma bela página">
+```
+
+O Google pode usar isso para gerar a descrição da página em suas páginas de resultados se achar que descreve melhor a página do que o conteúdo na página.
+Podemos usar o charset meta para definir a codificação de caracteres da página. UTF-8 na maioria dos casos:
+
+```html
+<meta charset="utf-8">
+```
+
+A metatag robots instrui os bots do mecanismo de pesquisa se devem ou não indexar uma página:
+
+```html
+<meta name="robots" content="noindex">
+```
+
+Ou se devem seguir links ou não:
+
+```html
+<meta name="robots" content="nofollow">
+```
+
+Você pode combiná-los:
+
+```html
+<meta name="robots" content="noindex, nofollow">
+```
+
+O comportamento padrão é index, follow.
+Você pode usar outras propriedades, incluindo nosnippet, noarchive, noimageindex e muito mais.
+Você também pode dizer ao Google em vez de segmentar todos os mecanismos de pesquisa:
+
+```html
+<meta name="googlebot" content="noindex, nofollow">
+```
+
+Outros mecanismos de pesquisa também podem ter sua própria metatag.
+Falando nisso, podemos dizer ao Google para desativar alguns recursos. A meta tag notranslate impede a funcionalidade de tradução nos resultados do mecanismo de pesquisa:
+
+```html
+<meta name="google" content="notranslate">
+```
+
+Podemos usar a meta tag viewport para informar ao navegador para definir a largura da página com base na largura do dispositivo.
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1">
+```
+
+Veja mais sobre esta tag: <https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag>.
+
+Outra meta tag bastante popular é a http-equiv="refresh". Esta linha diz ao navegador para esperar 3 segundos e redirecionar para a outra página:
+
+```html
+<meta http-equiv="refresh" content="3;url=http://www.sergiogomes.com/another-page">
+```
+
+Usar 0 em vez de 3 redirecionará o mais rápido possível.
+
+Após a introdução deste documento, podemos começar a mergulhar no corpo do documento: body.
