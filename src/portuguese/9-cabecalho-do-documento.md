@@ -6,10 +6,10 @@ A tag head contém tags exclusivas que definem as propriedades do documento.
 ```html
 <!DOCTYPE html>
 <html>
-   <head>
-     ...
-   </head>
-   ...
+  <head>
+    ...
+  </head>
+  ...
 </html>
 ```
 
@@ -104,12 +104,12 @@ Uso:
 ```html
 <!DOCTYPE html>
 <html>
-   <head>
-     ...
-     <link href="file.css" rel="stylesheet">
-     ...
-   </head>
-   ...
+  <head>
+    ...
+    <link href="file.css" rel="stylesheet">
+    ...
+  </head>
+  ...
 </html>
 ```
 
@@ -142,7 +142,7 @@ Podemos usar a tag style para adicionar estilos ao documento em vez de carregar 
 
 ```html
 <style>
-   .some-css {}
+  .some-css {}
 </style>
 ```
 
@@ -150,7 +150,7 @@ Assim como a tag link, você pode usar o atributo media para usar aquele CSS ape
 
 ```html
 <style media="print">
-   .some-css {}
+  .some-css {}
 </style>
 ```
 
@@ -161,12 +161,12 @@ Podemos usar a tag base para definir um URL base para todos os URLs relativos co
 ```html
 <!DOCTYPE html>
 <html>
-   <head>
-     ...
-     <base href="https://www.sergiogomes.com/">
-     ...
-   </head>
-   ...
+  <head>
+    ...
+    <base href="https://www.sergiogomes.com/">
+    ...
+  </head>
+  ...
 </html>
 ```
 
