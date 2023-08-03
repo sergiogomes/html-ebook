@@ -30,3 +30,22 @@ Nós o usamos para criar uma nova linha dentro de uma tag `p` sem criar um novo 
 ```html
 <p>Algum texto<br>Uma nova linha</p>
 ```
+
+## As tags de título
+
+O HTML nos fornece 6 tags de título. Do mais importante para o menos importante, temos `h1`, `h2`, `h3`, `h4`, `h5` e `h6`.
+Normalmente, uma página terá um elemento `h1`, o título da página. Então você tem um ou mais elementos `h2` dependendo do conteúdo da página.
+Os cabeçalhos, especialmente a organização do título, também são essenciais para o SEO, e os mecanismos de pesquisa os utilizam de várias maneiras.
+O navegador renderizará a tag `h1` maior e diminuirá o tamanho dos elementos à medida que o número próximo a `h` aumenta por padrão
+
+```html
+<h1>h1</h1>
+<h2>h2</h2>
+<h3>h3</h3>
+<h4>h4</h4>
+<h5>h5</h5>
+<h6>h6</h6>
+<p>p</p>
+```
+
+Todos os cabeçalhos são elementos de bloco. Eles não podem conter outros elementos, apenas texto.
