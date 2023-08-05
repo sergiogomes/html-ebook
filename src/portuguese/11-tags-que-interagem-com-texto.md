@@ -49,3 +49,20 @@ O navegador renderizará a tag `h1` maior e diminuirá o tamanho dos elementos �
 ```
 
 Todos os cabeçalhos são elementos de bloco. Eles não podem conter outros elementos, apenas texto.
+
+## A tag strong
+
+Usamos a tag `strong` para marcar o texto dentro dela como forte, o que é essencial, pois não é uma dica visual, mas sim semântica. Dependendo do meio utilizado, sua interpretação irá variar.
+Os navegadores tornam o texto nesta tag `negrito` por padrão.
+
+```html
+<p>Este parágrafo é muito <strong>importante!</strong></p>
+```
+
+## A tag em
+
+Usamos a tag `em` para marcar o texto dentro dela como enfatizado. Como strong, não é um visual, mas uma dica semântica. Navegadores fazem o texto `itálico` por padrão.
+
+```html
+<p><em>Status quo</em> é uma frase em Latim que significa o estado de coisas existente</p>
+```
