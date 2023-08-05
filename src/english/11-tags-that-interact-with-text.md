@@ -61,8 +61,7 @@ Browsers make the text in this tag `bold` by default.
 
 ## The em tag
 
-We use the `em` tag to mark the text inside it as emphasized. Like with
-strong, it's not a visual but a semantic hint. Browsers make the text in this `italic` by default.
+We use the `em` tag to mark the text inside it as emphasized. Like with strong, it's not a visual but a semantic hint. Browsers make the text in this `italic` by default.
 
 ```html
 <p><em>Status quo</em> is a Latin phrase that means the existing state of affairs</p>
