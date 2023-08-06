@@ -66,3 +66,21 @@ Usamos a tag `em` para marcar o texto dentro dela como enfatizado. Como strong, 
 ```html
 <p><em>Status quo</em> é uma frase em Latim que significa o estado de coisas existente</p>
 ```
+
+## Citações
+
+A tag `blockquote` ajuda a inserir citações no texto.
+Os navegadores aplicam uma margem ao elemento `blockquote` por padrão (o Chrome aplica uma margem esquerda e direita de 40px e uma margem superior e inferior de 10px)
+
+```html
+<blockquote>
+  A maioria das pessoas gasta mais tempo e energia contornando os problemas do que tentando resolvê-los.<br>
+  - Henry Ford
+</blockquote>
+```
+
+E usamos a tag `q` para citações em linha.
+
+```html
+<p>Henry Ford disse <q>A maioria das pessoas gasta mais tempo e energia contornando problemas do que tentando resolvê-los.</q> no século 20</p>
+```
