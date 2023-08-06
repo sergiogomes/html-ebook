@@ -84,3 +84,12 @@ E usamos a tag `q` para citações em linha.
 ```html
 <p>Henry Ford disse <q>A maioria das pessoas gasta mais tempo e energia contornando problemas do que tentando resolvê-los.</q> no século 20</p>
 ```
+
+## Linha horizontal
+
+Não é realmente baseado em texto, mas podemos usar a tag `hr` dentro de uma página. Significa régua horizontal e adiciona uma linha horizontal à página.
+Útil para separar seções na página.
+
+```html
+<hr>
+```
