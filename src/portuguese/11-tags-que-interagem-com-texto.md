@@ -93,3 +93,26 @@ Não é realmente baseado em texto, mas podemos usar a tag `hr` dentro de uma p�
 ```html
 <hr>
 ```
+
+## Blocos de código
+
+A tag `code` é especialmente útil para mostrar o código porque os navegadores fornecem uma fonte monoespaçada.
+Normalmente, essa é a única coisa que os navegadores fazem. Aqui está o CSS aplicado pelo Chrome:
+
+```css
+code {
+  font-family: monospace;
+}
+```
+
+Essa tag normalmente é agrupada em uma tag `pre` porque a tag code ignora espaços em branco e quebras de linha como a tag `p`.
+O Chrome aplica esse estilo padrão à `pre` para evitar que o espaço em branco colapse e o torne um elemento de bloco.
+
+```css
+pre {
+  display: block;
+  font-family: monospace;
+  white-space: pre;
+  margin: 1em 0px;
+}
+```

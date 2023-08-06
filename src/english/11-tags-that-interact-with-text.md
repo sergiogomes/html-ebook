@@ -114,7 +114,7 @@ pre {
   font-family: monospace;
   white-space: pre;
   margin: 1em 0px;
-} 
+}
 ```
 
 ## Lists
