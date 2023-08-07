@@ -23,8 +23,7 @@ The `span` is an inline tag used to create a section in a paragraph that we can 
 
 ## The br tag
 
-The `br` tag represents a line break. It's an inline element and does not
-need a closing tag.
+The `br` tag represents a line break. It's an inline element and does not need a closing tag.
 We use it to create a new line inside a `p` tag without creating a new paragraph. And compared to creating a new paragraph, it does not add additional spacing.
 
 ```html
@@ -170,8 +169,7 @@ There are several tags with presentational purposes:
 - the i tag
 - the b tag
 
-Here is an example of the visual rendering of them, which is applied by
-default by browsers:
+Here is an example of the visual rendering of them, which is applied by default by browsers:
 
 ```html
 <mark>mark</mark>

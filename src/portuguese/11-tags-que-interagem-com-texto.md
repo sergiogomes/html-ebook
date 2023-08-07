@@ -23,8 +23,7 @@ O `span` é uma tag em linha usada para criar uma seção em um parágrafo que p
 
 ## A tag br
 
-A tag `br` representa uma quebra de linha. É um elemento em linha e não
-precisa de uma etiqueta de fechamento.
+A tag `br` representa uma quebra de linha. É um elemento em linha e não precisa de uma tag de fechamento.
 Nós o usamos para criar uma nova linha dentro de uma tag `p` sem criar um novo parágrafo. E em comparação com a criação de um novo parágrafo, não adiciona espaçamento adicional.
 
 ```html
@@ -156,3 +155,34 @@ As listas de definições são diferentes. Você tem um termo e sua definição:
 ```
 
 Você raramente os vê por aí, com certeza não muito como `ul` e `ol`, mas às vezes eles podem ser úteis.
+
+## Outras tags de texto
+
+Existem várias tags com propósitos de apresentação:
+
+- a tag mark
+- a tag ins
+- a tag del
+- a tag sup
+- a tag sub
+- a tag small
+- a tag i
+- a tag b
+
+Aqui está um exemplo da renderização visual deles, que é aplicada por padrão pelos navegadores:
+
+```html
+<mark>mark</mark>
+<ins>ins</ins>
+<del>del</del>
+<sup>sup</sup>
+<sub>sub</sub>
+<small>small</small>
+<i>i</i>
+<b>b</b>
+```
+
+Você pode se perguntar, como `b` é diferente de `strong`? E como `i` é diferente de `em`?
+A diferença está no significado semântico. Enquanto `b` e `i` são uma dica direta no navegador para tornar um texto em negrito ou itálico, `strong` e `em` dão ao texto um significado especial. Cabe ao navegador fornecer o estilo, que é o mesmo que `b` e `i`, por padrão. Embora você possa mudar isso usando CSS.
+
+Existem muitas outras tags menos usadas relacionadas ao texto. Eu apenas mencionei as que eu vejo mais sendo usadas.
