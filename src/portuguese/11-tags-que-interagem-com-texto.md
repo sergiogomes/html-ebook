@@ -116,3 +116,43 @@ pre {
   margin: 1em 0px;
 }
 ```
+
+## Listas
+
+Temos três tipos de listas:
+
+- listas não ordenadas
+- listas ordenadas
+- listas de definição
+
+Criamos listas não ordenadas usando a tag `ul`. Cada item na lista com a tag `li`:
+
+```html
+<ul>
+  <li>ovos</li>
+  <li>bacon</li>
+</ul>
+```
+
+As listas ordenadas são semelhantes, apenas feitas com a tag `ol`:
+
+```html
+<ol>
+  <li>Primeiro</li>
+  <li>Segundo</li>
+</ol>
+```
+
+A diferença é que as listas ordenadas possuem um número antes de cada item.
+As listas de definições são diferentes. Você tem um termo e sua definição:
+
+```html
+<dl>
+  <dt>Sérgio</dt>
+  <dd>O nome</dd>
+  <dt>Gomes</dt>
+  <dd>O sobrenome</dd>
+</dl>
+```
+
+Você raramente os vê por aí, com certeza não muito como `ul` e `ol`, mas às vezes eles podem ser úteis.
