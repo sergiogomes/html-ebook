@@ -15,7 +15,7 @@ The above example is an absolute URL but links also work with relative URLs:
 ```
 
 In this case, when clicking the link, the user is moved to the `/about` URL on the current origin.
-Be careful with the `/` character. If omitted, the browser will add the test string to the current URL instead of starting from the origin.
+Be careful with the `/` character. If omitted, the browser will add the text string to the current URL instead of starting from the origin.
 For example, I'm on the page <https://www.sergiopgomes.com/axios/>, and I have these links:
 
 - /about once clicked brings me to <https://www.sergiopgomes.com/about>
