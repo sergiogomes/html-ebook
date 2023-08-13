@@ -6,10 +6,10 @@ We can use the `nav` tag to create the page navigation markup. Inside it, we typ
 
 ```html
 <nav>
-    <ol> 
-        <li><a href="/">Home</a></li>
-        <li><a href="/blog">Blog</a></li>
-    </ol>
+  <ol> 
+    <li><a href="/">Home</a></li>
+    <li><a href="/blog">Blog</a></li>
+  </ol>
 </nav>
 ```
 
