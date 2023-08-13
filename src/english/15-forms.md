@@ -12,7 +12,7 @@ We create a form using the `form` tag:
 ```
 
 By default, the `form` submits using the `GET` HTTP method. Which has its drawbacks, and usually, we want to use `POST`.
-We can set the form to use `POST` when submitted by using the method attribute:
+We can set the form to use `POST` when submitted by using the `method` attribute:
 
 ```html
 <form method="POST">
@@ -23,7 +23,7 @@ We can set the form to use `POST` when submitted by using the method attribute:
 The form is submitted, either using `GET` or `POST`, to the same URL where it resides.
 So if the form is on the <https://www.sergiopgomes.com/contacts> page, pressing the "submit" button will request that exact URL which might result in nothing happening.
 We need something server-side to handle the request, and typically we "listen" for those form-submit events on a dedicated URL.
-You can specify the URL via the action parameter:
+You can specify the URL via the `action` parameter:
 
 ```html
 <form action="/new-contact" method="POST">
