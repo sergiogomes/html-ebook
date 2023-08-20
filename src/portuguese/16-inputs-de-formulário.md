@@ -26,3 +26,39 @@ Usamos o atributo `placeholder` para mostrar algum texto em cinza claro quando o
 ```html
 <input type="text" name="nome de usuário" placeholder="Seu nome de usuário">
 ```
+
+## Email
+
+Usar `type="email"` validará do lado do cliente (no navegador) um e-mail quanto à correção (correção semântica, não garantindo que o endereço de e-mail exista) antes de enviar.
+
+```html
+<input type="email" name="email" placeholder="Seu e-mail">
+```
+
+## Password
+
+Usar `type="password"` fará com que cada tecla digitada apareça como um asterisco (`*`) ou ponto, útil para campos que hospedam uma senha.
+
+```html
+<input type="password" name="password" placeholder="Sua senha">
+```
+
+## Números
+
+Podemos ter um elemento `input` aceitando apenas números:
+
+```html
+<input type="number" name="age" placeholder="Sua idade">
+```
+
+Podemos especificar um valor `mínimo` e `máximo` aceito:
+
+```html
+<input type="number" name="age" placeholder="Sua idade" min="18" max="110">
+```
+
+O atributo `step` ajuda a identificar as etapas entre valores diferentes. No exemplo abaixo, aceitamos um valor entre 10 e 50 em etapas de 5:
+
+```html
+<input type="number" name="a-number" min="10" max="50" step="5">
+```
