@@ -82,7 +82,7 @@ All those fields accept a predefined value. If the user does not change it, this
 <input type="number" name="age" value="18">
 ```
 
-If you set a `placeholder`, that `value` will appear if the user clears the input field `value`:
+If you set a `placeholder`, it will only appear if the user clears the input field `value`:
 
 ```html
 <input type="number" name="age" placeholder="Your age" value="18">
