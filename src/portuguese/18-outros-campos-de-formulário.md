@@ -25,3 +25,19 @@ Você pode usar um tipo `MIME` específico, como `application/json`, ou definir 
 ```html
 <input type="file" nome="documentos-secretos" aceitar=".jpg, .jpeg, .png">
 ```
+
+## Botões
+
+Podemos usar os campos de entrada `type="button"` para adicionar botões ao formulário que não sejam botões de envio:
+
+```html
+<input type="button" value="Clique em mim">
+```
+
+Eles são usados para fazer algo programaticamente usando JavaScript.
+
+Existe um campo especial renderizado como botão, cuja ação especial é limpar todo o formulário e trazer de volta o estado dos campos ao inicial:
+
+```html
+<input type="reset">
+```
