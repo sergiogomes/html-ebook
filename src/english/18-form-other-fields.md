@@ -28,13 +28,14 @@ You can use a specific `MIME` type, like `application/json`, or set a file exten
 
 ## Buttons
 
-We can use the type="button" input fields to add additional buttons to the form that are not submit buttons:
+We can use the `type="button"` input fields to add additional buttons to the form that are not submit buttons:
 
 ```html
 <input type="button" value="Click me">
 ```
 
 They are used to programmatically do something using JavaScript.
+
 There is a special field rendered as a button, whose special action is to clear the entire form and bring back the state of the fields to the initial one:
 
 ```html
