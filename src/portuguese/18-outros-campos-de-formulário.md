@@ -41,3 +41,17 @@ Existe um campo especial renderizado como botão, cuja ação especial é limpar
 ```html
 <input type="reset">
 ```
+
+## Botões de rádio
+
+Podemos usar botões de rádio para criar um conjunto de opções, das quais selecionamos uma opção e todas as outras são desabilitadas.
+O nome vem de rádios de carros antigos que possuíam esse tipo de interface.
+Você define um conjunto de entradas `type="radio"`, todas com o mesmo atributo `name` e diferentes atributos `value`:
+
+```html
+<input type="radio" name="color" value="yellow">
+<input type="radio" name="color" value="red">
+<input type="radio" name="color" value="blue">
+```
+
+Depois que o formulário for enviado, a propriedade de dados `color` terá apenas um valor. Sempre há um elemento verificado. O primeiro item é aquele marcado por padrão. Você pode definir o valor pré-selecionado usando o atributo `checked`. Você pode usá-lo apenas uma vez por grupo de entrada de rádio.
