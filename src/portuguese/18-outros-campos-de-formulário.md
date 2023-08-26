@@ -55,3 +55,17 @@ Você define um conjunto de entradas `type="radio"`, todas com o mesmo atributo 
 ```
 
 Depois que o formulário for enviado, a propriedade de dados `color` terá apenas um valor. Sempre há um elemento verificado. O primeiro item é aquele marcado por padrão. Você pode definir o valor pré-selecionado usando o atributo `checked`. Você pode usá-lo apenas uma vez por grupo de entrada de rádio.
+
+## Caixas de seleção
+
+Assim como os botões de rádio, as caixas de seleção podem criar um conjunto de opções, mas podemos escolher vários valores ou nenhum.
+Podemos definir um conjunto de entradas `type="checkbox"`, todas com o mesmo atributo `name` e diferentes atributos `value`:
+Todas as caixas de seleção estão desmarcadas por padrão. Use o atributo `checked` para marca-lás no carregamento da página.
+
+```html
+<input type="checkbox" name="color" value="yellow">
+<input type="checkbox" name="color" value="red">
+<input type="checkbox" name="color" value="blue" checked>
+```
+
+Como este campo de entrada permite vários valores, o formulário envia os valores para o servidor como uma lista no momento do envio do formulário.
