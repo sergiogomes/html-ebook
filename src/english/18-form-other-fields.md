@@ -58,14 +58,14 @@ Once the form is submitted, the `color` data property will have only one value. 
 
 ## Checkboxes
 
-Like radio boxes, checkboxes can create a set of choices, but we can choose multiple values or none.
-You define a set of `type="checkbox"` inputs, all with the same `name` attribute and different `value` attribute:
-All those checkboxes are unchecked by default. Use the `checked` attribute to enable them on page load.
+Like radio buttons, checkboxes can create a set of choices, but we can choose multiple values or none.
+We define a set of `type="checkbox"` inputs, all with the same `name` attribute and different `value` attribute:
+All the checkboxes are unchecked by default. Use the `checked` attribute to check them on page load.
 
 ```html
 <input type="checkbox" name="color" value="yellow">
 <input type="checkbox" name="color" value="red">
-<input type="checkbox" name="color" value="blue">
+<input type="checkbox" name="color" value="blue" checked>
 ```
 
 Since this input field allows multiple values, the form sends the values to the server as an array upon form submission.
