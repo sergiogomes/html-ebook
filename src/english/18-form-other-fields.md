@@ -46,7 +46,7 @@ There is a special field rendered as a button, whose special action is to clear 
 
 We can use Radio buttons to create a set of choices, of which we select one option, and all the others are disabled.
 The name comes from old car radios that had this kind of interface.
-You define a set of `type="radio"` inputs, all with the same name attribute, and different `value` attribute:
+You define a set of `type="radio"` inputs, all with the same `name` attribute, and different `value` attribute:
 
 ```html
 <input type="radio" name="color" value="yellow">
