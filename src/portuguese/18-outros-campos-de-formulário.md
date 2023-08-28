@@ -69,3 +69,38 @@ Todas as caixas de seleção estão desmarcadas por padrão. Use o atributo `che
 ```
 
 Como este campo de entrada permite vários valores, o formulário envia os valores para o servidor como uma lista no momento do envio do formulário.
+
+## Data e hora
+
+Temos alguns tipos de entrada para aceitar valores de data.
+O campo de entrada `type="date"` permite ao usuário inserir uma data e mostra um seletor de data, se necessário:
+
+```html
+<input type="date" name="aniversario">
+```
+
+O campo de entrada `type="time"` permite ao usuário inserir um horário e mostra um seletor de horário, se necessário:
+
+```html
+<input type="time" name="horario-de-entrega">
+```
+
+O campo de entrada `type="month"` permite ao usuário inserir um mês e um ano:
+
+```html
+<input type="month" name="escolha-mes-lancamento">
+```
+
+O campo de entrada `type="week"` permite ao usuário inserir uma semana e um ano:
+
+```html
+<input type="week" name="escolher-semana">
+```
+
+Todos esses campos permitem limitar o intervalo e o passo entre cada valor. Eu recomendo verificar o site do MDN para obter detalhes específicos de cada um.
+
+O campo `type="datetime-local"` permite escolher uma data e uma hora.
+
+```html
+<input type="datetime-local" name="data-e-hora">
+```
