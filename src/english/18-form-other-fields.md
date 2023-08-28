@@ -98,6 +98,7 @@ The `type="week"` input field allows the user to enter a week and a year:
 ```
 
 All those fields allow limiting the range and the step between each value. I recommend checking MDN for the little details on their usage.
+
 The `type="datetime-local"` field lets you choose a date and a time.
 
 ```html
