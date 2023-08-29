@@ -104,3 +104,19 @@ O campo `type="datetime-local"` permite escolher uma data e uma hora.
 ```html
 <input type="datetime-local" name="data-e-hora">
 ```
+
+## Seletor de cores
+
+Você pode permitir que os usuários escolham uma cor usando o elemento `type="color"`:
+
+```html
+<input type="color" name="cor-do-carro">
+```
+
+Você define um valor padrão usando o atributo `value`:
+
+```html
+<input type="color" name="cor-do-carro" value="#000000">
+```
+
+O navegador se encarregará de mostrar um seletor de cores ao usuário.
