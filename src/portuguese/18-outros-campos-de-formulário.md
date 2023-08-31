@@ -120,3 +120,18 @@ Você define um valor padrão usando o atributo `value`:
 ```
 
 O navegador se encarregará de mostrar um seletor de cores ao usuário.
+
+## Faixa
+
+Este elemento de entrada mostra um `slider`. As pessoas podem usá-lo para passar de um valor inicial para um valor final:
+
+```html
+<input type="range" nome="idade" min="0" max="100" valor="30">
+```
+
+Você pode fornecer uma `step` opcional:
+
+```html
+<input type="range" nome="idade" min="0" max="100" valor="30" step=
+"10">
+```
