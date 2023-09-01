@@ -145,6 +145,7 @@ We can use the `type="tel"` input field to enter a phone number:
 ```
 
 The main selling point for `tel` over `text` is on mobile, where the device can choose to show a numeric keyboard.
+
 Specify a `pattern` attribute for additional validation:
 
 ```html
