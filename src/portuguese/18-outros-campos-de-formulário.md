@@ -135,3 +135,19 @@ Você pode fornecer uma `step` opcional:
 <input type="range" nome="idade" min="0" max="100" valor="30" step=
 "10">
 ```
+
+## Telefone
+
+Podemos usar o campo de entrada `type="tel"` para inserir um número de telefone:
+
+```html
+<input type="tel" name="numero-telefone">
+```
+
+A principal diferença tipo de entrada do `tel` para o do `texto` é o comportamento no celular, onde o dispositivo pode optar por mostrar um teclado numérico.
+
+Especifique um atributo `pattern` para validação adicional:
+
+```html
+<input type="tel" pattern="[0-9]{3}-[0-9]{8}" name="numero-telefone">
+```
