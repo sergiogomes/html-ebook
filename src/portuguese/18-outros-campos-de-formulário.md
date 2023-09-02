@@ -151,3 +151,17 @@ Especifique um atributo `pattern` para validação adicional:
 ```html
 <input type="tel" pattern="[0-9]{3}-[0-9]{8}" name="numero-telefone">
 ```
+
+## URL
+
+Podemos usar o campo `type="url"` para inserir uma URL.
+
+```html
+<input type="url" name="website">
+```
+
+Podemos validá-lo usando o atributo `pattern`:
+
+```html
+<input type="url" name="website" pattern="https://.*">
+```
