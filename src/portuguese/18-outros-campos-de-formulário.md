@@ -165,3 +165,23 @@ Podemos validá-lo usando o atributo `pattern`:
 ```html
 <input type="url" name="website" pattern="https://.*">
 ```
+
+## A tag textarea
+
+O elemento `textarea` permite aos usuários inserir texto multilinha. Comparado com `input`, requer uma tag final:
+
+```html
+<textarea></textarea>
+```
+
+Você pode definir as dimensões usando CSS, mas também usando os atributos `rows` e `cols`:
+
+```html
+<textarea rows="20" cols="10"></textarea>
+```
+
+Tal como acontece com as outras tags de formulário, o atributo `name` determina o nome nos dados enviados ao servidor:
+
+```html
+<textarea name="artigo"></textarea>
+```
