@@ -185,3 +185,51 @@ Tal como acontece com as outras tags de formulário, o atributo `name` determina
 ```html
 <textarea name="artigo"></textarea>
 ```
+
+## A tag select
+
+Podemos usar esta tag para criar um menu suspenso.
+O usuário pode escolher uma das opções disponíveis.
+Criamos cada opção usando a tag `option`. Adicionamos um `nome` ao select e um `value` a cada opção:
+
+```html
+<select name="cor">
+  <option value="vermelho">Vermelho</option>
+  <option value="amarelo">Amarelo</option>
+</select>
+```
+
+Você pode definir uma opção `disabled`:
+
+```html
+<select name="cor">
+  <option value="vermelho" disabled>Vermelho</option>
+  <option value="amarelo">Amarelo</option>
+</select>
+```
+
+Você pode ter uma opção vazia:
+
+```html
+<select name="cor">
+  <option value="">Nenhum</option>
+  <option value="vermelho">Vermelho</option>
+  <option value="amarelo">Amarelo</option>
+</select>
+```
+
+Podemos agrupar opções usando a tag `optgroup`. Cada grupo de opções possui um atributo `label`:
+
+```html
+<select name="cor">
+  <optgroup label="Primario">
+    <option value="vermelho">Vermelho</option>
+    <option value="amarelo">Amarelo</option>
+    <option value="azul">Azul</option>
+  </optgroup>
+  <optgroup label="Outros">
+    <option value="verde">Verde</option>
+    <option value="rosa">Rosa</option>
+  </optgroup>
+</select>
+```
