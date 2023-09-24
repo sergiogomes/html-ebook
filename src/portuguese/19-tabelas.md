@@ -70,3 +70,43 @@ Definimos o conteúdo da tabela usando tags `td` dentro dos elementos `tr`:
   </tr>
 </table>
 ```
+
+## Ampliar colunas e linhas
+
+Podemos ter uma linha abrangendo duas ou mais colunas usando o atributo `colspan`:
+
+```html
+<table>
+  <tr>
+    <th>Coluna 1</th>
+    <th>Coluna 2</th>
+    <th>Coluna 3</th>
+  </tr>
+  <tr>
+    <td colspan="2">Linha 1 Colunas 1-2</td>
+    <td>Linha 1 Coluna 3</td>
+  </tr>
+  <tr>
+    <td colspan="3">Linha 2 Colunas 1-3</td>
+  </tr>
+</table>
+```
+
+Ou pode abranger duas ou mais linhas usando o atributo `rowspan`:
+
+```html
+<table>
+  <tr>
+    <th>Coluna 1</th>
+    <th>Coluna 2</th>
+    <th>Coluna 3</th>
+  </tr>
+  <tr>
+    <td colspan="2" rowspan="2">Linhas 1-2 Colunas 1-2</td>
+    <td>Linha 1 Coluna 3</td>
+  </tr>
+  <tr>
+    <td>Linha 2 Coluna 3</td>
+  </tr>
+</table>
+```
