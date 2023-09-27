@@ -110,3 +110,87 @@ Ou pode abranger duas ou mais linhas usando o atributo `rowspan`:
   </tr>
 </table>
 ```
+
+## Títulos de linha
+
+Podemos adicionar uma tag `th` como o primeiro elemento dentro de um `tr` que não é o primeiro `tr` da tabela a ter cabeçalhos de linha:
+
+```html
+<table>
+  <tr>
+    <th></th>
+    <th>Coluna 2</th>
+    <th>Coluna 3</th>
+  </tr>
+  <tr>
+    <th>Linha 1</th>
+    <td>Coluna 2</td>
+    <td>Coluna 3</td>
+  </tr>
+  <tr>
+    <th>Linha 2</th>
+    <td>Coluna 2</td>
+    <td>Coluna 3</td>
+  </tr>
+</table>
+```
+
+## Mais tags para organizar a mesa
+
+Você pode adicionar mais três tags a uma tabela para deixá-la mais organizada. Isso é melhor ao usar mesas grandes. E para definir corretamente um cabeçalho e um rodapé também.
+Essas tags são
+
+- `thead`
+- `tcorpo`
+- `tpé`
+
+Eles envolvem as tags `tr` para definir claramente as diferentes seções da tabela. Aqui está um exemplo:
+
+```html
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Coluna 2</th>
+      <th>Coluna 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Linha 1</th>
+      <td>Coluna 2</td>
+      <td>Coluna 3</td>
+    </tr>
+    <tr>
+      <th>Linha 2</th>
+      <td>Coluna 2</td>
+      <td>Coluna 3</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td></td>
+      <td>Rodapé da coluna 1</td>
+      <td>Rodapé da coluna 2</td>
+    </tr>
+  </tfoot>
+</table>
+```
+
+## Legenda da tabela
+
+Uma tabela deve ter uma tag `caption` que descreva seu conteúdo. Devemos colocar esta tag imediatamente após a tag de abertura `table`:
+
+```html
+<table>
+  <caption>Idade dos cães</caption>
+  <tr>
+    <th>Cachorro</th>
+    <th>Idade</th>
+  </tr>
+  <tr>
+    <td>Rogério</td>
+    <td>7</td>
+  </tr>
+</table>
+```
