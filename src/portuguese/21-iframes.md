@@ -1,0 +1,22 @@
+# IFrames
+
+A tag `iframe` nos permite incorporar conteúdo proveniente de outras origens (outros sites) em nossa página web.
+Tecnicamente, um iframe cria um novo contexto de navegação aninhado. Isso significa que nada no iframe interfere na página pai e vice-versa. JavaScript e CSS não "vazam" de/para iframes.
+Muitos sites usam iframes para realizar várias coisas. Você pode estar familiarizado com Codepen, Glitch ou outros sites que permitem codificar em uma parte da página e ver o resultado em uma caixa. Isso é um iframe.
+Você cria um desta maneira:
+
+```html
+<iframe src="pagina.html"></iframe>
+```
+
+Você também pode carregar um URL absoluto:
+
+```html
+<iframe src="https://site.com/pagina.html"></iframe>
+```
+
+Você pode definir parâmetros de largura e altura (ou defini-los usando CSS). Caso contrário, o iframe usará o padrão, uma caixa de 300x150 pixels:
+
+```html
+<iframe src="pagina.html" width="800" height="400"></iframe>
+```
