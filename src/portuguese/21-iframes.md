@@ -28,3 +28,28 @@ O atributo `srcdoc` permite especificar algum HTML embutido para mostrar. É uma
 ```html
 <iframe srcdoc="<p>Meu cachorro é um bom cachorro</p>"></iframe>
 ```
+
+## Sandbox
+
+O atributo `sandbox` nos permite limitar as operações permitidas nos iframes.
+Se omitirmos, tudo é permitido:
+
+```html
+<iframe src="page.html"></iframe>
+```
+
+Se definirmos como "", nada será permitido:
+
+```html
+<iframe src="page.html" sandbox=""></iframe>
+```
+
+Podemos selecionar o que permitir adicionando opções no atributo `sandbox`. Você pode permitir vários adicionando um espaço entre eles. Aqui está uma lista incompleta das opções que você pode usar:
+
+- `allow-forms` - permite o envio de formulários
+- `allow-modals` - permite abrir janelas modais, incluindo chamar `alert()` em javascript
+- `allow-orientation-lock` - permite bloquear a orientação da tela
+- `allow-popups` - permite pop-ups, usando links `window.open()` e `target="_blank"`
+- `allow-same-origin` - trata o recurso carregado como a mesma origem
+- `allow-scripts` - permite que o iframe carregado execute scripts (mas não crie pop-ups)
+- `allow-top-navigation` - dá acesso ao iframe ao contexto de navegação de nível superior
