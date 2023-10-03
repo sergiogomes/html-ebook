@@ -20,3 +20,11 @@ Você pode definir parâmetros de largura e altura (ou defini-los usando CSS). C
 ```html
 <iframe src="pagina.html" width="800" height="400"></iframe>
 ```
+
+## Srcdoc
+
+O atributo `srcdoc` permite especificar algum HTML embutido para mostrar. É uma alternativa ao `src`, mas recente e não suportada no Edge 18 e inferior e no IE:
+
+```html
+<iframe srcdoc="<p>Meu cachorro é um bom cachorro</p>"></iframe>
+```
