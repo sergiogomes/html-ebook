@@ -53,3 +53,25 @@ Podemos selecionar o que permitir adicionando opções no atributo `sandbox`. Vo
 - `allow-same-origin` - trata o recurso carregado como a mesma origem
 - `allow-scripts` - permite que o iframe carregado execute scripts (mas não crie pop-ups)
 - `allow-top-navigation` - dá acesso ao iframe ao contexto de navegação de nível superior
+
+## Allow
+
+Atualmente suportado apenas por navegadores baseados em Chromium e ainda experimental, este é o futuro do compartilhamento de recursos entre a janela pai e o iframe.
+É semelhante ao atributo `sandbox`, mas podemos permitir recursos específicos, incluindo:
+
+- `accelerometer` - dá acesso à interface do Sensors API Accelerometer
+- `ambient-light-sensor` - dá acesso à interface Sensors API AmbientLightSensor
+- `autoplay` - permite a reprodução automática de arquivos de vídeo e áudio
+- `camera` - permite acesso à câmera a partir da API getUserMedia
+- `display-capture` - permite acesso ao conteúdo da tela usando a API getDisplayMedia
+- `fullscreen` - permite acesso ao modo de tela cheia
+- `geolocation` - permite acesso à API de geolocalização
+- `gyroscope` - dá acesso à interface Sensors API Gyroscope
+- `magnetometer` - dá acesso à interface Sensors API Magnetometer
+- `microfone` - dá acesso ao microfone do dispositivo usando a API getUserMedia
+- `midi` - permite acesso à API Web MIDI
+- `payment` - dá acesso à API de solicitação de pagamento
+- `speaker` - permite acesso à reprodução de áudio através dos alto-falantes do dispositivo
+- `usb` - dá acesso à API WebUSB.
+- `vibrate` - dá acesso à API Vibration
+- `vr` - dá acesso à API WebVR
