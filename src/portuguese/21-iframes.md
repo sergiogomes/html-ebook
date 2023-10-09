@@ -75,3 +75,20 @@ Atualmente suportado apenas por navegadores baseados em Chromium e ainda experim
 - `usb` - dá acesso à API WebUSB.
 - `vibrate` - dá acesso à API Vibration
 - `vr` - dá acesso à API WebVR
+
+## Referrer
+
+Ao carregar um iframe, o navegador envia informações essenciais sobre quem o carrega no cabeçalho `Referer` (observe o único `r`, um erro de digitação com o qual devemos conviver).
+
+> O erro ortográfico do "referrer" originou-se na proposta original do cientista da computação Phillip Hallam-Baker de incorporar o campo na especificação HTTP. O erro ortográfico foi gravado na pedra no momento de sua incorporação no documento de padrões de Solicitação de Comentários RFC 1945
+
+O atributo `referrerpolicy` nos permite definir o referenciador para enviar ao iframe ao carregá-lo. O referenciador é um cabeçalho HTTP que permite à página saber quem a está carregando. Estes são os valores permitidos:
+
+- `no-referrer-when-downgrade` - é o padrão e não envia o referenciador quando a página atual carrega via HTTPS e o iframe carrega no protocolo HTTP
+- `no-referrer` - não envia o cabeçalho do referenciador
+- `origin` - o referenciador enviado contém apenas a origem (porta, protocolo, domínio), não a origem + caminho, que é o padrão
+- `origin-when-cross-origin` - ao carregar da mesma origem (porta, protocolo, domínio) no iframe, o referenciador tem sua forma completa (origem + caminho). Caso contrário, tem apenas a origem
+- `same-origin` - o referenciador enviado apenas ao carregar da mesma origem (porta, protocolo, domínio) no iframe
+- `strict-origin` - envia a origem como referenciador se a página atual carregar via HTTPS e o iframe também carregar no protocolo HTTPS. Não envia nada se o iframe for carregado por HTTP
+- `strict-origin-when-cross-origin` - envia a origem + caminho como referenciador ao trabalhar na mesma origem. Envia a origem como referenciador se a página atual for carregada por HTTPS e o iframe também for carregado no protocolo HTTPS. Não envia nada se o iframe for carregado por HTTP
+- `unsafe-url` - envia a origem + caminho como referenciador mesmo ao carregar recursos de HTTP e a página atual é carregada por HTTPS
