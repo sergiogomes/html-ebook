@@ -19,3 +19,17 @@ Você pode definir os atributos `width` e `height` para definir o espaço que o 
 ```html
 <img src="cachorro.png" alt="A foto de um cachorro" width="300" height="200">
 ```
+
+## A tag da figura
+
+Muitas vezes podemos usar a tag `figure` junto com a tag `img`.
+`figure` é uma tag semântica frequentemente usada quando você deseja exibir uma imagem com uma legenda. Você usa assim:
+
+```html
+<figure>
+  <img src="cachorro.png" alt="Um lindo cachorro">
+  <figcaption>Um lindo cachorro</figcaption>
+</figure>
+```
+
+A tag `figcaption` envolve o texto da legenda.
