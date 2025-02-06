@@ -37,5 +37,5 @@ Recomendo a leitura do meu Guia de Expressões Regulares em <https://www.sergiop
 padrão="https://.*"
 
 ```html
-<input type="text" name="nome-usuario" pattern="[a-zA-Z{8}">
+<input type="text" name="nome-usuario" pattern="^[a-zA-Z]{8,}$">
 ```

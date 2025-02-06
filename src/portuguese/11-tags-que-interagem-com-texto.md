@@ -104,6 +104,10 @@ code {
 }
 ```
 
+```html
+<code>trecho de código</code>
+```
+
 Essa tag normalmente é agrupada em uma tag `pre` porque a tag code ignora espaços em branco e quebras de linha como a tag `p`.
 O Chrome aplica esse estilo padrão à `pre` para evitar que o espaço em branco colapse e o torne um elemento de bloco.
 
@@ -114,6 +118,15 @@ pre {
   white-space: pre;
   margin: 1em 0px;
 }
+```
+
+```html
+<pre>
+{
+  chave: 'valor',
+  chave2: 'valor2'
+}
+</pre>
 ```
 
 ## Listas

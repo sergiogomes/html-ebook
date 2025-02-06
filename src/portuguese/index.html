@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Ebook</title>
+  </head>
+  <body>
+    <p>Algum texto</p>
+
+    <p>Uma parte do texto <span>e aqui outra parte</span></p>
+
+    <p>Algum texto<br>Uma nova linha</p>
+
+    <h1>h1</h1>
+    <h2>h2</h2>
+    <h3>h3</h3>
+    <h4>h4</h4>
+    <h5>h5</h5>
+    <h6>h6</h6>
+    <p>p</p>
+
+    <p>Este parágrafo é muito <strong>importante!</strong></p>
+
+    <p><em>Status quo</em> é uma frase em Latim que significa o estado de coisas existente</p>
+
+    <blockquote>
+      A maioria das pessoas gasta mais tempo e energia contornando os problemas do que tentando resolvê-los.<br>
+      - Henry Ford
+    </blockquote>
+
+    <p>Henry Ford disse <q>A maioria das pessoas gasta mais tempo e energia contornando problemas do que tentando resolvê-los.</q> no século 20</p>
+
+    <hr>
+
+    <code>trecho de código</code>
+
+    <pre>
+{
+  chave: 'valor',
+  chave2: 'valor2'
+}
+    </pre>
+
+    <ul>
+      <li>ovos</li>
+      <li>bacon</li>
+    </ul>
+
+    <ol>
+      <li>Primeiro</li>
+      <li>Segundo</li>
+    </ol>
+
+    <dl>
+      <dt>Sérgio</dt>
+      <dd>O nome</dd>
+      <dt>Gomes</dt>
+      <dd>O sobrenome</dd>
+    </dl>
+
+    <mark>mark</mark>
+    <ins>ins</ins>
+    <del>del</del>
+    <sup>sup</sup>
+    <sub>sub</sub>
+    <small>small</small>
+    <i>i</i>
+    <b>b</b>
+
+    <br>
+    <br>
+    <a href="https://www.sergiopgomes.com">Clique aqui</a>
+    <br>
+    <br>
+
+    <!-- tirar print daqui pra baixo -->
+
+    <form>
+      <input type="text" name="nome-usuario">
+      <br>
+      <br>
+      <input type="text" name="nome-usuario" placeholder="Seu nome de usuário">
+      <br>
+      <br>
+      <input type="email" name="email" placeholder="Seu e-mail">
+      <br>
+      <br>
+      <input type="password" name="senha" placeholder="Sua senha">
+      <br>
+      <br>
+      <input type="number" name="age" placeholder="Sua idade">
+      <br>
+      <br>
+      <input type="number" name="idade" placeholder="Sua idade" min="18" max="110">
+      <br>
+      <br>
+      <input type="number" name="idade" min="10" max="50" step="5">
+      <br>
+      <br>
+      <input type="number" name="idade" value="18">
+      <br>
+      <br>
+      <input type="file" name="documentos-secretos">
+      <br>
+      <br>
+      <input type="file" nome="documentos-secretos" multiple>
+      <br>
+      <br>
+      <input type="radio" name="color" value="yellow">
+      <input type="radio" name="color" value="red">
+      <input type="radio" name="color" value="blue">
+      <br>
+      <br>
+      <input type="checkbox" name="color" value="yellow">
+      <input type="checkbox" name="color" value="red">
+      <input type="checkbox" name="color" value="blue" checked>
+      <br>
+      <br>
+      <input type="date" name="aniversario">
+      <br>
+      <br>
+      <input type="time" name="horario-de-entrega">
+      <br>
+      <br>
+      <input type="month" name="escolha-mes-lancamento">
+      <br>
+      <br>
+      <input type="week" name="escolher-semana">
+      <br>
+      <br>
+      <input type="datetime-local" name="data-e-hora">
+      <br>
+      <br>
+      <input type="color" name="cor-do-carro">
+      <br>
+      <br>
+      <input type="range" nome="idade" min="0" max="100" valor="30" step=
+  "10">
+      <br>
+      <br>
+      <input type="tel" pattern="[0-9]{3}-[0-9]{8}" name="numero-telefone">
+      <br>
+      <br>
+      <input type="url" name="website" pattern="https://.*">
+      <br>
+      <br>
+      <textarea rows="20" cols="10"></textarea>
+      <br>
+      <br>
+      <select name="cor">
+        <option value="">Nenhum</option>
+        <option value="vermelho">Vermelho</option>
+        <option value="amarelo">Amarelo</option>
+      </select>
+      <br>
+      <br>
+      <select name="cor">
+        <optgroup label="Primario">
+          <option value="vermelho">Vermelho</option>
+          <option value="amarelo">Amarelo</option>
+          <option value="azul">Azul</option>
+        </optgroup>
+        <optgroup label="Outros">
+          <option value="verde">Verde</option>
+          <option value="rosa">Rosa</option>
+        </optgroup>
+      </select>
+      <br>
+      <br>
+      <input type="button" value="Clique em mim">
+      <br>
+      <br>
+      <input type="reset">
+      <br>
+      <br>
+      <input type="submit" value="Clique em mim">
+    </form>
+
+    <br>
+    <br>
+
+    <table>
+      <tr>
+        <th>Coluna 1</th>
+        <th>Coluna 2</th>
+        <th>Coluna 3</th>
+      </tr>
+      <tr>
+        <td>Linha 1 Coluna 1</td>
+        <td>Linha 1 Coluna 2</td>
+        <td>Linha 1 Coluna 3</td>
+      </tr>
+      <tr>
+        <td>Linha 2 Coluna 1</td>
+        <td>Linha 2 Coluna 2</td>
+        <td>Linha 2 Coluna 3</td>
+      </tr>
+    </table>
+
+    <br>
+    <br>
+
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Coluna 2</th>
+          <th>Coluna 3</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Linha 1</th>
+          <td>Coluna 2</td>
+          <td>Coluna 3</td>
+        </tr>
+        <tr>
+          <th>Linha 2</th>
+          <td>Coluna 2</td>
+          <td>Coluna 3</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td></td>
+          <td>Rodapé da coluna 1</td>
+          <td>Rodapé da coluna 2</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <br>
+    <br>
+
+    <audio src="arquivo.mp3" controls></audio>
+
+    <br>
+    <br>
+
+    <video src="arquivo.mp4" controls></video>
+  </body>
+</html>

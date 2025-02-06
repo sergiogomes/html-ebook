@@ -135,7 +135,7 @@ Podemos adicionar uma tag `th` como o primeiro elemento dentro de um `tr` que n�
 </table>
 ```
 
-## Mais tags para organizar a mesa
+## Mais tags para organizar a tabela
 
 Você pode adicionar mais três tags a uma tabela para deixá-la mais organizada. Isso é melhor ao usar mesas grandes. E para definir corretamente um cabeçalho e um rodapé também.
 Essas tags são
