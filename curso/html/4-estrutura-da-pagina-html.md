@@ -1,8 +1,21 @@
-# Estrutura da Página HTML
+# Módulo HTML - Estrutura da página HTML (roteiro de aula)
 
-Nesta aula, vamos montar uma página HTML "do jeito certo". Tudo começa com o navegador sabendo que aquele arquivo é HTML.
+## Objetivo da aula
 
-Vamos fazer um exemplo de uma página HTML adequada. Tudo começa com a Declaração de Tipo de Documento, uma forma de dizer ao navegador que esta é uma página HTML e qual versão estamos usando.
+Ao final desta aula, você vai conseguir:
+
+- Montar um arquivo HTML com a **estrutura mínima correta**
+- Entender a função do `<!DOCTYPE html>` (e o que é *quirks mode*)
+- Entender o papel de `<html>`, `<head>` e `<body>`
+- Reconhecer tags com fechamento e tags sem conteúdo (ex.: `<img />`)
+
+---
+
+## 1) A estrutura básica de uma página HTML
+
+Nesta aula, vamos montar uma página HTML “do jeito certo”. Tudo começa com o navegador sabendo que aquele arquivo é HTML.
+
+Vamos fazer um exemplo de uma página HTML adequada. Tudo começa com a **Declaração de Tipo de Documento**, uma forma de dizer ao navegador que esta é uma página HTML e qual versão estamos usando.
 
 O HTML moderno usa este tipo de documento:
 
@@ -58,3 +71,36 @@ Dentro do elemento `html`, temos dois elementos: `head` e `body`:
 Dentro do `head`, teremos as tags essenciais para a criação de uma página web, como o título, os metadados, CSS e JavaScript interno ou externo. Principalmente coisas que não aparecem diretamente na página, mas apenas ajudam o navegador (ou bots como o bot de pesquisa do Google) a exibi-la corretamente.
 
 Dentro do `body`, teremos o conteúdo da página.
+
+---
+
+## 2) Mini-exercício (2 minutos)
+
+Crie um arquivo `index.html` e escreva uma estrutura completa mínima:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Minha primeira página</title>
+  </head>
+  <body>
+    <h1>Olá, mundo</h1>
+    <p>Essa é a estrutura base de uma página HTML.</p>
+  </body>
+</html>
+```
+
+Abra no navegador e confirme:
+
+- O título da aba muda por causa de `<title>` no `head`.
+- O que aparece na página está dentro do `body`.
+
+---
+
+## 3) Fechamento (resumo curto)
+
+- `<!DOCTYPE html>` evita inconsistências e reduz risco de *quirks mode*.
+- `<html>` envolve o documento inteiro.
+- `<head>` guarda metadados/recursos; `<body>` é o conteúdo da página.
+- A maioria das tags tem abertura/fechamento, mas algumas não têm conteúdo (ex.: `<img />`).

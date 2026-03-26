@@ -1,4 +1,4 @@
-# Módulo HTML — Atributos (roteiro de aula)
+# Módulo HTML - Atributos (roteiro de aula)
 
 ## Objetivo da aula
 
@@ -73,7 +73,7 @@ Aqui, `defer` é booleano: se ele está presente, o navegador aplica o comportam
 
 Os atributos **`class` e `id`** são os mais comuns, porque eles são úteis tanto em **CSS** quanto em **JavaScript**.
 
-### `id` — único na página
+### `id` - único na página
 
 Um `id` deve ser **único** dentro da página (dentro do documento HTML).  
 Ou seja, você **não** deve repetir o mesmo `id` em dois elementos diferentes.
@@ -89,7 +89,7 @@ Uso típico de `id`:
 - **Âncoras** (navegar para uma parte da página)
 - **Referência única** em scripts (quando realmente faz sentido ser único)
 
-### `class` — pode repetir (e é o mais comum no CSS)
+### `class` - pode repetir (e é o mais comum no CSS)
 
 Já a `class` pode aparecer **várias vezes**, em vários elementos.  
 Isso é ótimo para criar “grupos” de elementos com o mesmo estilo ou comportamento.
@@ -117,7 +117,7 @@ Na prática, isso significa: o elemento pertence às classes `a-class` **e** `an
 - `btn-primario`
 - `card-produto`
 
-Não é regra do HTML — é **convenção** para facilitar leitura e padronização.
+Não é regra do HTML - é **convenção** para facilitar leitura e padronização.
 
 ---
 
@@ -139,7 +139,7 @@ E também existem atributos **bem específicos** de determinadas tags. Exemplo:
 
 ---
 
-## 6) `style` (CSS inline) — quando aparece e por que ter cuidado
+## 6) `style` (CSS inline) - quando aparece e por que ter cuidado
 
 Você pode usar `style` para colocar CSS **direto no elemento**:
 
