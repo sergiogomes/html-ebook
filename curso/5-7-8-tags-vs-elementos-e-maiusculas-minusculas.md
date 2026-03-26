@@ -103,6 +103,12 @@ Tags aninhadas devem ser indentadas com 2 ou 4 espaços (o mais importante é ma
 </body>
 ```
 
-Se você quiser adicionar espaço visual entre elementos, prefira CSS em vez de tentar "forçar" com espaços no HTML.
+Se você quiser adicionar espaço visual entre elementos, prefira CSS em vez de tentar "forçar" com espaços no HTML. Exemplo:
 
-Em casos excepcionais, você pode usar `&nbsp;` (espaço inquebrável), mas sem exagero. Para apresentação visual, CSS continua sendo a melhor opção.
+```html
+<p>
+  Um parágrafo de texto <span style="margin: 0 10px;">e texto afastado</span>
+</p>
+```
+
+Em casos excepcionais, você pode usar `&nbsp;` (espaço inquebrável), mas sem exagero. Para apresentação visual, CSS continua sendo a melhor opção. Para consultar outras entidades HTML, veja: <https://www.devmedia.com.br/html-entities-html-symbols-html-characters/1011>.
