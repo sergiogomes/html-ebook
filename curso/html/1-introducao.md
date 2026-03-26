@@ -1,4 +1,4 @@
-# Módulo HTML - Introdução (roteiro de aula)
+# Introdução
 
 ## Objetivo da aula
 
@@ -70,7 +70,7 @@ Isso já é o ponto de partida do módulo: aprender a “ler a Web” pelo HTML.
 
 ---
 
-## 5) Fechamento (resumo curto)
+## 5) Fechamento
 
 - HTML é a base da Web.
 - O módulo vai do básico ao avançado, com foco em clareza e aplicação prática.

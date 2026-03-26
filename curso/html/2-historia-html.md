@@ -1,4 +1,4 @@
-# Módulo HTML - História do HTML (roteiro de aula)
+# História do HTML
 
 ## Objetivo da aula
 
@@ -89,7 +89,7 @@ Se você está começando, isso acelera muito seu aprendizado: você não aprend
 
 ---
 
-## 7) Fechamento (resumo curto)
+## 7) Fechamento
 
 - HTML é simples - e essa simplicidade ajudou a Web a escalar.
 - A Web priorizou compatibilidade, e isso foi decisivo.

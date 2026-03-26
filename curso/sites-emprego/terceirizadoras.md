@@ -1,4 +1,4 @@
-# Sites de emprego - Terceirizadoras (lista de links)
+# Terceirizadoras
 
 ## Objetivo
 

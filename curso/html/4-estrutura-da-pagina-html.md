@@ -1,4 +1,4 @@
-# Módulo HTML - Estrutura da página HTML (roteiro de aula)
+# Estrutura da página HTML
 
 ## Objetivo da aula
 
@@ -98,7 +98,7 @@ Abra no navegador e confirme:
 
 ---
 
-## 3) Fechamento (resumo curto)
+## 3) Fechamento
 
 - `<!DOCTYPE html>` evita inconsistências e reduz risco de *quirks mode*.
 - `<html>` envolve o documento inteiro.

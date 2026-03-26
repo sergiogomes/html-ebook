@@ -1,4 +1,4 @@
-# Módulo HTML - Noções básicas de HTML (roteiro de aula)
+# Noções básicas de HTML
 
 ## Objetivo da aula
 
@@ -140,7 +140,7 @@ Agora abra esse arquivo no navegador e responda:
 
 ---
 
-## 7) Fechamento (resumo curto)
+## 7) Fechamento
 
 - HTML é um **padrão** e ele “vive” hoje na especificação do WHATWG.
 - O HTML passou por discussões históricas (W3C, XHTML), mas a Web priorizou pragmatismo.

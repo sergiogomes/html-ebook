@@ -1,4 +1,4 @@
-# Módulo HTML - Tags vs elementos, maiúsculas/minúsculas e espaço em branco (roteiro de aula)
+# Tags vs elementos, maiúsculas/minúsculas e espaço em branco
 
 ## Objetivo da aula
 
@@ -148,7 +148,7 @@ Perguntas rápidas:
 
 ---
 
-## 6) Fechamento (resumo curto)
+## 6) Fechamento
 
 - **Elemento** é o pacote completo (tag de abertura + conteúdo + tag de fechamento).
 - HTML **não** diferencia maiúsculas/minúsculas, mas o padrão moderno é escrever tags em **minúsculas**.
