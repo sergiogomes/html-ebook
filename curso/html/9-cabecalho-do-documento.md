@@ -275,6 +275,17 @@ Você pode combinar:
 
 O padrão é `index, follow`.
 
+O que isso significa, na prática:
+
+- **Indexar** (`index` / `noindex`): permite ou impede que a página entre no índice do buscador (ou seja, apareça nos resultados).
+- **Seguir links** (`follow` / `nofollow`): permite ou impede que o crawler use os links dessa página para descobrir outras URLs e associar sinais.
+
+Combinações comuns:
+
+- `index, follow`: padrão para páginas públicas.
+- `noindex, follow`: a página não aparece, mas os links ainda podem ser usados para descoberta.
+- `noindex, nofollow`: a página não aparece e também não “serve de ponte” para rastrear links.
+
 E você pode segmentar o Google:
 
 ```html

@@ -1,9 +1,50 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- SEO title: 50 a 60 caracteres -->
     <title>Curso de HTML</title>
-  </head>
-  <body>
+
+    <!-- SEO description: 140 a 160 caracteres -->
+    <meta name="description" content="Curso de HTML para iniciantes">
+
+    <!-- SEO keywords: 10 a 12 palavras -->
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+
+    <!-- SEO author: nome do autor -->
+    <meta name="author" content="Sergio Gomes">
+
+    <!-- SEO robots: index, follow -->
+    <meta name="robots" content="index, follow">
+
+    <!-- SEO google: notranslate -->
+    <meta name="google" content="notranslate">
+
+    <!-- SEO viewport: width=device-width, initial-scale=1 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- SEO refresh: 3 segundos -->
+    <!-- <meta http-equiv="refresh" content="10;url=https://www.sergiopgomes.com/"> -->
+
+    <meta property="og:description" content="Curso de HTML para iniciantes">
+    <meta property="og:title" content="Curso de HTML para iniciantes">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.sergiopgomes.com/">
+    <meta property="og:image" content="https://www.sergiopgomes.com/assets/og-image.png">
+    <meta property="og:image:alt" content="Curso de HTML para iniciantes">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <link rel="stylesheet" media="screen" href="style.css">
+    <link rel="stylesheet" media="print" href="print.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+    <link rel="alternate" type="application/rss+xml" href="/index.xml">
+    <base href="https://www.sergiopgomes.com/">
+    <script defer src="app.js"></script>
+    <script type="text/javascript">
+      console.log("Hello World");
+    </script>
     <style>
       .principal {
         color: red;
@@ -21,7 +62,25 @@
         margin: 0 10px;
         font-weight: bold;
       }
+      .no-script-detected {
+        display: none;
+      }
     </style>
+    <noscript>
+      <link rel="stylesheet" href="style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+        .no-script-detected {
+          color: red;
+          display: block;
+        }
+      </style>
+    </noscript>
+  </head>
+  <body>
+    <noscript class="no-script-detected">
+      <p>Este site requer JavaScript para funcionar corretamente. Por favor, ative o JavaScript no seu navegador.</p>
+    </noscript>
     <p id="topo-primario" class="principal texto-principal secundario">Sergio Gomes um longo texto para <span class="destaque">teste de parágrafo</span> um longo texto para teste de parágrafo um longo texto para teste de parágrafo um longo texto para teste de parágrafo um longo 
       texto para teste de parágrafo um longo texto para &nbsp;&nbsp;&nbsp;teste de parágrafo</p>
     <p>Texto longo de teste</p>
