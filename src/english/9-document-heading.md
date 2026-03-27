@@ -163,7 +163,7 @@ We can use the base tag to set a base URL for all relative URLs contained in the
 <html>
   <head>
     ... 
-    <base href="https://www.sergiogomes.com/">
+    <base href="https://www.sergiopgomes.com/">
     ... 
   </head> 
   ... 
@@ -229,7 +229,7 @@ See more on this tag: <https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/V
 Another rather popular meta tag is the http-equiv="refresh" one. This line tells the browser to wait 3 seconds, then redirect to that other page:
 
 ```html
-<meta http-equiv="refresh" content="3;url=http://www.sergiogomes.com/another-page">
+<meta http-equiv="refresh" content="3;url=http://www.sergiopgomes.com/another-page">
 ```
 
 Using 0 instead of 3 will redirect as soon as possible.

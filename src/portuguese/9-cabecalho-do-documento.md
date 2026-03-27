@@ -57,7 +57,7 @@ No JavaScript moderno, temos uma alternativa com melhor desempenho do que manter
 
 O atributo defer diz ao navegador para não esperar pelo script. o navegador continuará a processar o HTML e a criar o DOM enquanto o script é carregado “em segundo plano” e, em seguida, executado quando o DOM estiver totalmente criado.
 
-> Nota: o atributo async é semelhante, mas uma opção pior do que defer. Eu o descrevo com mais detalhes no Ebook de Javascript.
+> Nota: o atributo async é semelhante, mas uma opção pior do que defer. Eu o descrevo com mais detalhes no Módulo de Javascript.
 
 ## A tag noscript
 
@@ -163,7 +163,7 @@ Podemos usar a tag base para definir um URL base para todos os URLs relativos co
 <html>
   <head>
     ...
-    <base href="https://www.sergiogomes.com/">
+    <base href="https://www.sergiopgomes.com/">
     ...
   </head>
   ...
@@ -229,7 +229,7 @@ Veja mais sobre esta tag: <https://developer.mozilla.org/en-US/docs/Mozilla/Mobi
 Outra meta tag bastante popular é a http-equiv="refresh". Esta linha diz ao navegador para esperar 3 segundos e redirecionar para a outra página:
 
 ```html
-<meta http-equiv="refresh" content="3;url=http://www.sergiogomes.com/another-page">
+<meta http-equiv="refresh" content="3;url=http://www.sergiopgomes.com/another-page">
 ```
 
 Usar 0 em vez de 3 redirecionará o mais rápido possível.
